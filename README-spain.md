@@ -2,13 +2,13 @@
 
 Personaliza windows Terminal para Powershell y WSL
 
-<img src=/Capturas/1.png alt=CMD>
+<img src=/Capturas/1.png alt="CMD"/>
 
-<img src=/Capturas/2.png alt=PowerShell>
+<img src=/Capturas/2.png alt="PowerShell"/>
 
-<img src=/Capturas/3.png alt=Ubuntu>
+<img src=/Capturas/3.png alt="Ubuntu"/>
 
-<img src=/Capturas/4.png alt=Kali>
+<img src=/Capturas/4.png alt="Kali"/>
 
 ## Comenzando 🚀
 
