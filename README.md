@@ -1,13 +1,1 @@
- El volumen de la unidad C no tiene etiqueta.
- El nero de serie del volumen es: 4E43-6A9F
-
- Directorio de C:\Users\adria\Documents\Terminal
-
-06/09/2020  02:11 p. m.    <DIR>          .
-06/09/2020  01:47 p. m.    <DIR>          ..
-06/09/2020  01:48 p. m.    <DIR>          Capturas
-06/09/2020  02:11 p. m.                 0 README.md
-06/09/2020  02:10 p. m.    <DIR>          Recursos
-06/09/2020  02:06 p. m.    <DIR>          Windows Terminal
-               1 archivos              0 bytes
-               5 dirs  385,993,768,960 bytes libres
+Te comparto mi configuraci贸n de Windows Terminal para personalizar mi entorno de trabajo y sentirte m谩s c贸modo, en la carpeta recursos encontrar谩s los logos y fuentes para utilizar en tu terminal CascadiaCode para powershell y DroidSansMono para WSL, no olvides instalar estas fuentes en la carpeta fonts de windows 馃槄, en la carpeta windows terminal est谩 mi configuraci贸n completa de la terminal y en la carpeta temas est谩 la configuraci贸n de temas y una muestra en imagen por cada bash. Disfrutalo bb. 
