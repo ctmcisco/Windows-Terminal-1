@@ -1,0 +1,24 @@
+"schemes": [
+
+    {
+        "name" : "power",
+        "background" : "#000000",
+        "black" : "#000000",
+        "blue" : "#007FFF",
+        "brightBlack" : "#5A6374",
+        "brightBlue" : "#007FFF",
+        "brightCyan" : "#007FFF",
+        "brightGreen" : "#0eca8b",
+        "brightPurple" : "#C678DD",
+        "brightRed" : "#E06C75",
+        "brightWhite" : "#e2e2e2",
+        "brightYellow" : "#ffffff",
+        "cyan" : "#0eca8b",
+        "foreground" : "#ffffff",
+        "green" : "#0eca8b",
+        "purple" : "#C678DD",
+        "red" : "#E06C75",
+        "white" : "#e2e2e2",
+        "yellow" : "#0eca8b"
+    },
+],
