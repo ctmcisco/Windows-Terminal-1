@@ -10,6 +10,12 @@ Personaliza windows Terminal para Powershell y WSL
 
 <img src=/Capturas/4.png alt="Kali"/>
 
+C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
+
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+
+
 ## Comenzando 🚀
 
 _Te comparto mi configuración de Windows Terminal para personalizar mi entorno de trabajo y sentirte más cómodo, en la carpeta recursos encontrarás los logos y fuentes para utilizar en tu terminal; CascadiaCode para powershell y DroidSansMono para WSL, no olvides instalar estas fuentes en la carpeta fonts de windows 😅, en la carpeta windows terminal está mi configuración completa de la terminal y en la carpeta colorscheme está la configuración de temas y una muestra en imagen por cada shell. Disfrutalo bb_
