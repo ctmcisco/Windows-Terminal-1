@@ -1,16 +1,8 @@
-# Título del Proyecto
+# Personaliza windows Terminal con oh-my-posh y oh-my-zsh
 
 Personaliza windows Terminal para Powershell y WSL
 
 <img src=/Capturas/WT.png alt="Windows_Terminal"/>
-
-<img src=/Capturas/2.png alt="CMD"/>
-
-<img src=/Capturas/4.png alt="Ubuntu"/>
-
-<img src=/Capturas/5.png alt="Kali"/>
-
-<img src=/Capturas/6.png alt="Debian"/>
 
 
 ## Comenzando 🚀
@@ -20,16 +12,16 @@ _Te comparto mi configuración de Windows Terminal para personalizar mi entorno 
 
 ### Pre-requisitos 📋
 
-_Lo que necesitas para personalizar tu terminal
+_Lo que necesitas para personalizar tu terminal_
 
 ```
-1.-La nueva terminal de windows preferentemente descarga desde Microsoft Store .
+1.-La nueva terminal de windows preferentemente descarga desde Microsoft Store.
 
 2.-Tener instalado git para windows y git para Windows Subsystem for Linux.
 
-3.-Descargar este repositorio por medio de git o como un zip.
+3.-Descargar este repositorio por medio de git o como un archivo zip.
 
-4.-Un editor de texto plano bloc de notas, vim, nano, etc.
+4.-Un editor de texto plano: bloc de notas, vim, nano, etc.
 
 5.-De preferencia instalar la versión mas reciente de powershell.
 
@@ -43,15 +35,11 @@ _Lo que necesitas para personalizar tu terminal
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para personalizar powershell en tu terminal_
 
-_Una ve descargados la terminal de windows y el repositorio copia las fuentes de las carpetas comprimidas(Obio descomprime primero) en Fonts de windows recuerdad Cascadia Code PL para powershell y DroidSansMono para WSL:_
+_Una ve descargados la terminal de windows y este repositorio copia las fuentes de las carpetas comprimidas(Obvio descomprime primero) en Fonts de windows recuerda Cascadia Code PL para powershell y DroidSansMono para WSL_
 
 <img src=/Capturas/Fonts.png alt="Fonts"/>
 
-```
-Da un ejemplo
-```
-
-_Despues instala Oh-my-posh, con los siguientes comandos; recuerda declinar por confiar en la fuente_
+_Despues instala Oh-my-posh en PowerShell, con los siguientes comandos; recuerda declinar por confiar en la fuente_
 
 ```
 Install-Module posh-git -Scope CurrentUser
@@ -60,7 +48,7 @@ Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
-_Importa los modulos a tu perfil de powershell, SUSTITUYE adria por tu usuario_
+_Importa los módulos a tu perfil de PowerShell, SUSTITUYE adria por tu usuario_
 
 <img src=/Capturas/PROFILE$.png alt="ProfilePS"/>
 
@@ -70,27 +58,66 @@ Import-Module oh-my-posh
 Set-Theme Paradox
 ```
 
-_Corre una shell de powershell como administrador, para quitar las restricciones a los modulos_
+_Corre una shell de PowerShell como administrador, para quitar las restricciones a los módulos_
+
+```
+Set Execution-Policy Unrestricted
+```
 
 <img src=/Capturas/Set.png alt="Set"/>
 
-_En la carpeta Windows-Terminal te dejo dos secciones de archivos json, uno para la configuración completa de windows terminal y otro por temas de colores, por cada esquema de color anexo una toma para que veas como tiene que quedar, en gustos se rompen generos, es mi personalización no tiene porque gustarte, te invito a que copies los perfiles que necesites y posteriormente jugar con el esquema de colores_
+_En la carpeta Windows-Terminal te dejo dos secciones de archivos json, uno para la configuración completa de windows terminal y otro por temas de colores, por cada esquema de color anexo una toma como ejemplo, en gustos se rompen generos, es mi personalización no tiene porque gustarte, te invito a que copies los perfiles que necesites y posteriormente jugar con el esquema de colores_
 
 <img src=/Capturas/ConfPS.png alt="ConfigPS"/>
 
 <img src=/Capturas/esquemasPS.png alt="SchemesPS"/>
 
-_Si todo salio bien, el resultado es:_ 
+_Si todo salio bien, el resultado es..._ 
 
 <img src=/Capturas/1.png alt="PS"/>
 
 
+### Oh-my-zsh en Windows Subsystem for Linux ⚙️
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para personalizar powershell en tu terminal_
 
-## Ejecutando las pruebas ⚙️
+_Si instalaste las fuentes DroidSansMono ya llevas el primer paso, el siguiente es copiar los logos de la carpeta recursos_
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_Si trabajas en el disco local C, esta deberia ser la ruta donde pegar los logos_
+
+```
+C:\Users\youuser\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
+```
+
+<img src=/Capturas/Copialogos.png alt="Logos"/>
+
+_En este tutorial vamos a trabajar con Ubuntu, pero puedes hacer esto en Debian y Kali, dado que usan APT como administrador de paquetes y bash como shell predeterminada no debe a ver diferencias_
+
+_El primer paso es descargas una distro de Linux desde la Microsoft Store e introducir un usuario y constraseña, despues actualizar el sistema e instalar zsh y oh-my-zsh, te dejo aquí los comandos, acepta que zsh sea tu shell predeterminada._
+
+```
+sudo apt update
+```
+```
+sudo apt install zsh -y
+```
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+_Acepta que zsh sea tu shell predeterminada e instala el tema powerline10k con el siguiente comando_
+
+
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+
+
+_Si no hiciste cosas, la pantalla que muestra es la siguiente:_
+
+<img src=/Capturas/quesiverga.png alt="QSV"/>
+
+
 
 ### Analice las pruebas end-to-end 🔩
 
