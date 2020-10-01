@@ -50,13 +50,12 @@ Install-Module oh-my-posh -Scope CurrentUser
 
 _Importa los módulos a tu perfil de PowerShell, SUSTITUYE adria por tu usuario_
 
-<img src=/Capturas/PROFILE$.png alt="ProfilePS"/>
-
 ```
 Import-Module posh-git
 Import-Module oh-my-posh
 Set-Theme Paradox
 ```
+<img src=/Capturas/PROFILE$.png alt="ProfilePS"/>
 
 _Corre una shell de PowerShell como administrador, para quitar las restricciones a los módulos_
 
@@ -79,9 +78,7 @@ _Si todo salio bien, el resultado es..._
 
 ### Oh-my-zsh en Windows Subsystem for Linux ⚙️
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para personalizar powershell en tu terminal_
-
-_Si instalaste las fuentes DroidSansMono ya llevas el primer paso, el siguiente es copiar los logos de la carpeta recursos_
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para personalizar powershell en tu terminal, si instalaste las fuentes DroidSansMono ya llevas el primer paso, el siguiente es copiar los logos(O los que tu prefieras) de la carpeta recursos_
 
 _Si trabajas en el disco local C, esta deberia ser la ruta donde pegar los logos_
 
@@ -117,69 +114,51 @@ _Si no hiciste cosas, la pantalla que muestra es la siguiente:_
 
 <img src=/Capturas/quesiverga.png alt="QSV"/>
 
-
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+_Cambia el tema de zsh, escribe_
 
 ```
-Da un ejemplo
+vim ~/.zshrc
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+_Cambia el tema "russelnoseque" por:_
 
 ```
-Da un ejemplo
+powerlevel10k/powerlevel10k
 ```
 
-## Despliegue 📦
+<img src=/Capturas/changepower.png alt="CP"/>
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Ahora cierra y vuelve a abrir tu terminal, cuando la abras te aparecera una pantalla para configurar tu tema powerlevel10k, es inglés básico, aquí esta de mas explicar que hacer, si quieres volver a ajustar el tema escribe este comando_
+
+```
+p10k configure
+```
+
+_Para finalizar configura el perfil de Ubuntu en los ajsutes de la terminal de windows, de cualquier manera te dejo mis archivos JSON para que te des una idea_ 
+
+<img src=/Capturas/4.png alt="Ubuntu"/>
+<img src=/Capturas/5.png alt="Debian"/>
+<img src=/Capturas/6.png alt="Kali"/>
+
 
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Respositorio Oh-my-posh | ojea por aqui hay mas temas
+* [Oh-my-zsh](https://ohmyz.sh/) - Respositorio de zsh 
+* [Powerline10k](https://github.com/romkatv/powerlevel10k) - Tema powerline10k
+* [Cascadia Code](https://www.hanselman.com/) - Fuente Cascadia Code PL
+* [DroidSansMono](https://www.nerdfonts.com/) - Fuente DroidSansMono
+* [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/) - Documentación oficial de la terminal de windows
+* [Blog of Scott Hanselman](https://www.hanselman.com/) - Este tipo es un crack 😵
+* [The digital life](https://www.the-digital-life.com/en/) - Checa el blog de mi colega
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
+* Gracias por visitar este repositorio para personalizar tu terminal en windows 🤓
+* Espera nuevos tutoriales sobre el ecosistema .NET
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [Jonas-Lara](https://github.com/Jonas-Lara) 😊
