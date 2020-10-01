@@ -1,0 +1,23 @@
+"schemes": [
+    {
+        "name" : "deb",
+        "background" : "#f0f0f0",
+        "black" : "#000000",
+        "blue" : "#a70404",
+        "brightBlack" : "#a70404",
+        "brightBlue" : "#a70404",
+        "brightCyan" : "#000000",
+        "brightGreen" : "#000000",
+        "brightPurple" : "#000000",
+        "brightRed" : "#000000",
+        "brightWhite" : "#000000",
+        "brightYellow" : "#a70404",
+        "cyan" : "#ffffff",
+        "foreground" : "#000000",
+        "green" : "#ffffff",
+        "purple" : "#000000",
+        "red" : "#a70404",
+        "white" : "#000000",
+        "yellow" : "#a70404"
+    },
+]
