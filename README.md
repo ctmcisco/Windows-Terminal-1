@@ -143,10 +143,8 @@ _Para finalizar configura el perfil de Ubuntu en los ajsutes de la terminal de w
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Respositorio Oh-my-posh | ojea por aqui hay mas temas
-* [Oh-my-zsh](https://ohmyz.sh/) - Respositorio de zsh 
+* [Oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) - Respositorio Oh-my-posh | ojo aqui, hay mas temas
+* [Oh-my-zsh](https://ohmyz.sh/) - página web de zsh 
 * [Powerline10k](https://github.com/romkatv/powerlevel10k) - Tema powerline10k
 * [Cascadia Code](https://www.hanselman.com/) - Fuente Cascadia Code PL
 * [DroidSansMono](https://www.nerdfonts.com/) - Fuente DroidSansMono
